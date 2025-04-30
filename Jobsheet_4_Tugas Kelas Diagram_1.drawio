@@ -4,52 +4,52 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sorWauNKGjCDKEAtHX4p-2" value="Mahasiswa" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-2" value="Mahasiswa" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=light-dark(#0C0C0C,#0C0C0C);strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="290" y="120" width="270" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-3" value="&lt;ul&gt;&lt;li&gt;nama: str&lt;/li&gt;&lt;li&gt;nim: str&lt;/li&gt;&lt;li&gt;ipk: float&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;container=0;fontColor=#ffffff;fillStyle=auto;dashed=1;gradientColor=none;" vertex="1" parent="sorWauNKGjCDKEAtHX4p-2">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-3" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;nama: str&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;nim: str&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;ipk: float&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;container=0;fontColor=light-dark(#0C0C0C,#0C0C0C);fillStyle=auto;dashed=1;gradientColor=none;" vertex="1" parent="sorWauNKGjCDKEAtHX4p-2">
           <mxGeometry y="30" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-4" value="&lt;ul&gt;&lt;li&gt;__init__(nama: string, nim: str, ipk: float): void&lt;/li&gt;&lt;li&gt;__str__(): string&lt;/li&gt;&lt;li&gt;__repr__(): string&lt;/li&gt;&lt;li&gt;tampilkan_info(): void&lt;/li&gt;&lt;li&gt;hitung_predikat(): string&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#EEB4B4,#EEB4B4);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="sorWauNKGjCDKEAtHX4p-2">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-4" value="&lt;ul&gt;&lt;li&gt;__init__(nama: string, nim: str, ipk: float): void&lt;/li&gt;&lt;li&gt;__str__(): string&lt;/li&gt;&lt;li&gt;__repr__(): string&lt;/li&gt;&lt;li&gt;tampilkan_info(): void&lt;/li&gt;&lt;li&gt;hitung_predikat(): string&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#EEB4B4,#EEB4B4);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=light-dark(#0C0C0C,#0C0C0C);" vertex="1" parent="sorWauNKGjCDKEAtHX4p-2">
           <mxGeometry y="110" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-14" value="MahasiswaSarjana" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-14" value="MahasiswaSarjana" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=light-dark(#0C0C0C,#0C0C0C);strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="110" y="460" width="270" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-15" value="&lt;ul&gt;&lt;li&gt;semester: int&lt;/li&gt;&lt;li&gt;lulus int&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;container=0;fontColor=#ffffff;fillStyle=auto;dashed=1;gradientColor=none;" vertex="1" parent="sorWauNKGjCDKEAtHX4p-14">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-15" value="&lt;ul&gt;&lt;li&gt;semester: int&lt;/li&gt;&lt;li&gt;lulus int&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;container=0;fontColor=light-dark(#0C0C0C,#0C0C0C);fillStyle=auto;dashed=1;gradientColor=none;" vertex="1" parent="sorWauNKGjCDKEAtHX4p-14">
           <mxGeometry y="30" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-16" value="&lt;ul&gt;&lt;li&gt;__init__(nama: string, nim: str, ipk: float, semester: int, lulus: int): void&lt;/li&gt;&lt;li&gt;tampilkan_info(): void Override&lt;/li&gt;&lt;li&gt;hitung_predikat(): string Override&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#006EAF;fillColor=light-dark(#8AD8FF,#8AD8FF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="sorWauNKGjCDKEAtHX4p-14">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-16" value="&lt;ul&gt;&lt;li&gt;__init__(nama: string, nim: str, ipk: float, semester: int, lulus: int): void&lt;/li&gt;&lt;li&gt;tampilkan_info(): void Override&lt;/li&gt;&lt;li&gt;hitung_predikat(): string Override&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#006EAF;fillColor=light-dark(#8AD8FF,#8AD8FF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=light-dark(#0C0C0C,#0C0C0C);" vertex="1" parent="sorWauNKGjCDKEAtHX4p-14">
           <mxGeometry y="110" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-18" value="MahasiswaMagister" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-18" value="MahasiswaMagister" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=light-dark(#0C0C0C,#0C0C0C);strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="470" y="460" width="270" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-19" value="&lt;ul&gt;&lt;li&gt;judul_tesis: str&lt;/li&gt;&lt;li&gt;nama_pembimbing: str&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;container=0;fontColor=#ffffff;fillStyle=auto;dashed=1;gradientColor=none;" vertex="1" parent="sorWauNKGjCDKEAtHX4p-18">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-19" value="&lt;ul&gt;&lt;li&gt;judul_tesis: str&lt;/li&gt;&lt;li&gt;nama_pembimbing: str&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;container=0;fontColor=light-dark(#0C0C0C,#0C0C0C);fillStyle=auto;dashed=1;gradientColor=none;" vertex="1" parent="sorWauNKGjCDKEAtHX4p-18">
           <mxGeometry y="30" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-20" value="&lt;ul&gt;&lt;li&gt;__init__(nama: string, nim: str, ipk: float, judul_tesis: str, nama_pembimbing: str): void&lt;/li&gt;&lt;li&gt;tampilkan_info(): void Override&lt;/li&gt;&lt;li&gt;hitung_predikat(): string Override&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#005700;fillColor=light-dark(#A3FFA3,#A3FFA3);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="sorWauNKGjCDKEAtHX4p-18">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-20" value="&lt;ul&gt;&lt;li&gt;__init__(nama: string, nim: str, ipk: float, judul_tesis: str, nama_pembimbing: str): void&lt;/li&gt;&lt;li&gt;tampilkan_info(): void Override&lt;/li&gt;&lt;li&gt;hitung_predikat(): string Override&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#005700;fillColor=light-dark(#A3FFA3,#A3FFA3);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=light-dark(#0C0C0C,#0C0C0C);" vertex="1" parent="sorWauNKGjCDKEAtHX4p-18">
           <mxGeometry y="110" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.302;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sorWauNKGjCDKEAtHX4p-14" target="sorWauNKGjCDKEAtHX4p-4">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.302;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=light-dark(#0C0C0C,#0C0C0C);" edge="1" parent="1" source="sorWauNKGjCDKEAtHX4p-14" target="sorWauNKGjCDKEAtHX4p-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="410" as="sourcePoint" />
             <mxPoint x="510" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.426;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sorWauNKGjCDKEAtHX4p-14" target="sorWauNKGjCDKEAtHX4p-4">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.426;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=light-dark(#0C0C0C,#0C0C0C);" edge="1" parent="1" source="sorWauNKGjCDKEAtHX4p-14" target="sorWauNKGjCDKEAtHX4p-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="188" y="470" as="sourcePoint" />
             <mxPoint x="382" y="354" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.69;entryY=1.087;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sorWauNKGjCDKEAtHX4p-18" target="sorWauNKGjCDKEAtHX4p-4">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.69;entryY=1.087;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=light-dark(#0C0C0C,#0C0C0C);" edge="1" parent="1" source="sorWauNKGjCDKEAtHX4p-18" target="sorWauNKGjCDKEAtHX4p-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="255" y="470" as="sourcePoint" />
             <mxPoint x="415" y="354" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sorWauNKGjCDKEAtHX4p-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sorWauNKGjCDKEAtHX4p-18" target="sorWauNKGjCDKEAtHX4p-4">
+        <mxCell id="sorWauNKGjCDKEAtHX4p-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontColor=light-dark(#0C0C0C,#0C0C0C);" edge="1" parent="1" source="sorWauNKGjCDKEAtHX4p-18" target="sorWauNKGjCDKEAtHX4p-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="615" y="470" as="sourcePoint" />
             <mxPoint x="443" y="358" as="targetPoint" />
