@@ -4,6 +4,57 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_lPeYFttOANibDaKMs_N-1" value="&lt;i&gt;Senjata&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=light-dark(#0C0C0C,#0C0C0C);strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-2" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;merk: str&lt;/font&gt;&lt;/li&gt;&lt;li&gt;model: str&lt;/li&gt;&lt;li&gt;_status_nyala: bool&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;container=0;fontColor=light-dark(#0C0C0C,#0C0C0C);fillStyle=auto;dashed=1;gradientColor=none;" vertex="1" parent="_lPeYFttOANibDaKMs_N-1">
+          <mxGeometry y="30" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-3" value="&lt;ul&gt;&lt;li&gt;__init__(merk: str, processor: str): void&lt;/li&gt;&lt;li&gt;menyalakan(): void&lt;/li&gt;&lt;li&gt;mematikan(): void&lt;/li&gt;&lt;li&gt;get_info(): void&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#EEB4B4,#EEB4B4);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=light-dark(#0C0C0C,#0C0C0C);" vertex="1" parent="_lPeYFttOANibDaKMs_N-1">
+          <mxGeometry y="110" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-4" value="Televisi" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=light-dark(#0C0C0C,#0C0C0C);strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="520" width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-5" value="&lt;ul&gt;&lt;li&gt;ukuran_layar: int&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;container=0;fontColor=light-dark(#0C0C0C,#0C0C0C);fillStyle=auto;dashed=1;gradientColor=none;" vertex="1" parent="_lPeYFttOANibDaKMs_N-4">
+          <mxGeometry y="30" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-6" value="&lt;ul&gt;&lt;li&gt;__init__(merk: str, processor: str, ukuran_layar: int): void&lt;/li&gt;&lt;li&gt;get_info(): void&lt;/li&gt;&lt;li&gt;ganti_channel(nomor_channel: int): void&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#006EAF;fillColor=light-dark(#8AD8FF,#8AD8FF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=light-dark(#0C0C0C,#0C0C0C);" vertex="1" parent="_lPeYFttOANibDaKMs_N-4">
+          <mxGeometry y="110" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-7" value="Radio" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=light-dark(#0C0C0C,#0C0C0C);strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="470" y="520" width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-8" value="&lt;ul&gt;&lt;li&gt;frekuensi: float&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#6F0000;fillColor=light-dark(#FFFFFF,#FFFFFF);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;container=0;fontColor=light-dark(#0C0C0C,#0C0C0C);fillStyle=auto;dashed=1;gradientColor=none;" vertex="1" parent="_lPeYFttOANibDaKMs_N-7">
+          <mxGeometry y="30" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-9" value="&lt;ul&gt;&lt;li&gt;__init__(merk: str, processor: str, frekuensi: float): void&lt;/li&gt;&lt;li&gt;get_info(): void&lt;br&gt;&lt;/li&gt;&lt;li&gt;putar_radio(frekuensi_baru: float): void&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#005700;fillColor=light-dark(#A3FFA3,#A3FFA3);align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=light-dark(#0C0C0C,#0C0C0C);" vertex="1" parent="_lPeYFttOANibDaKMs_N-7">
+          <mxGeometry y="110" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.205;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=light-dark(#0C0C0C,#0C0C0C);" edge="1" parent="1" source="_lPeYFttOANibDaKMs_N-4" target="_lPeYFttOANibDaKMs_N-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="470" as="sourcePoint" />
+            <mxPoint x="510" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.37;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=light-dark(#0C0C0C,#0C0C0C);" edge="1" parent="1" source="_lPeYFttOANibDaKMs_N-4" target="_lPeYFttOANibDaKMs_N-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="188" y="530" as="sourcePoint" />
+            <mxPoint x="382" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.641;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=light-dark(#0C0C0C,#0C0C0C);" edge="1" parent="1" source="_lPeYFttOANibDaKMs_N-7" target="_lPeYFttOANibDaKMs_N-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="530" as="sourcePoint" />
+            <mxPoint x="415" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lPeYFttOANibDaKMs_N-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontColor=light-dark(#0C0C0C,#0C0C0C);" edge="1" parent="1" source="_lPeYFttOANibDaKMs_N-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="530" as="sourcePoint" />
+            <mxPoint x="510" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
