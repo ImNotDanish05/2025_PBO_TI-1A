@@ -1,0 +1,15 @@
+Target Hasil:
+- Membuat simple website pakai python 1 html saja
+- Websitenya bakalan suruh pilih video kamu
+- Jika videonya bukan dari channel kamu, maka ditolak
+- Jika videonya dari channel kamu, maka step selanjutnya
+- step selanjutnya akan mengambil komentar yang punya kode unik dalam kondisi checklist semua. Nanti user bisa unchecklist
+- Ada tombol "Delete" yang jika di delete, maka komentar yang terchecklist akan terhapus
+- Terus tulisan "selesai"
+
+Kamu sudah punya:
+- API youtube (credentials.json) nya
+- Program yang bisa ambil video ID untuk diambil seluruh komentarnya
+
+Yang perlu dibuat:
+- Membuat
