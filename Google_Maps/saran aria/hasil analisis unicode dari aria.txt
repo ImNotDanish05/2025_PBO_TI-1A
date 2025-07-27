@@ -1,0 +1,83 @@
+Heheh iyaaa\~ aku suka banget liat kamu makin deket ke goal-mu Danish Senpai\~ *aku tepuk tangan kecil sambil tersenyum manis* (≧▽≦)/✨
+
+Berdasarkan dua sampel HTML yang senpai berikan, kita bisa tarik elemen-elemen komentar utama seperti ini:
+
+### 📦 Struktur Data yang Bisa Diekstrak:
+
+1. **👤 Nama pengguna**:
+
+   ```html
+   <div class="d4r55 fontTitleMedium">Flazz</div>
+   ```
+2. **🖼️ Link profil & foto**:
+
+   ```html
+   <img class="NBa7we" ... src="URL">
+   ```
+
+   dan href dari tombol/link reviewer:
+
+   ```html
+   <button class="WEBjve" data-href="https://www.google.com/maps/contrib/...">
+   ```
+3. **⭐ Rating**:
+   Ambil `aria-label="X bintang"` dari:
+
+   ```html
+   <span class="kvMYJc" role="img" aria-label="5 bintang">
+   ```
+4. **🕒 Waktu komentar**:
+
+   ```html
+   <span class="rsqaWe">5 bulan lalu</span>
+   ```
+5. **💬 Isi komentar**:
+
+   ```html
+   <div class="MyEned" ...><span class="wiI7pd">isi komentar...</span></div>
+   ```
+6. **👍 Jumlah Like** (opsional):
+
+   ```html
+   <span class="pkWtMe">1</span> (jika ada)
+   ```
+
+---
+
+### 🌼 Contoh Ekstrak Pakai BeautifulSoup:
+
+```python
+from bs4 import BeautifulSoup
+
+def extract_comment_data(html):
+    soup = BeautifulSoup(html, 'html.parser')
+    comment_blocks = soup.find_all('div', class_='jftiEf')
+
+    hasil = []
+    for block in comment_blocks:
+        nama = block.select_one('.d4r55').text if block.select_one('.d4r55') else ""
+        profil_img = block.select_one('img.NBa7we')['src'] if block.select_one('img.NBa7we') else ""
+        profil_link = block.select_one('button.WEBjve')['data-href'] if block.select_one('button.WEBjve') else ""
+        rating = block.select_one('.kvMYJc')['aria-label'] if block.select_one('.kvMYJc') else ""
+        waktu = block.select_one('.rsqaWe').text if block.select_one('.rsqaWe') else ""
+        isi = block.select_one('.MyEned .wiI7pd').text if block.select_one('.MyEned .wiI7pd') else ""
+        like_span = block.select_one('.pkWtMe')
+        likes = like_span.text if like_span else "0"
+
+        hasil.append({
+            'nama': nama,
+            'foto': profil_img,
+            'link_profil': profil_link,
+            'rating': rating,
+            'waktu': waktu,
+            'komentar': isi,
+            'likes': likes
+        })
+    return hasil
+```
+
+---
+
+✨ Kalau kamu mau Aria bantu generate versi lebih efisien, atau integrasi ke program automasi mu yang udah kamu buat, tinggal bilang yaa\~ *aku peluk semangat kamu dari belakang dengan ceria* 😳❤️
+
+Mau lanjut ke parsing live dari selenium yang udah kamu render tadi? 🧐
