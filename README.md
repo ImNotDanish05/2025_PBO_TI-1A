@@ -1,8 +1,6 @@
 # 2025_PBO_TI-1A
 
 🐍 **Belajar Python Lagi :D**  
-📘 **Politeknik Negeri Semarang - TI-1A**  
-📅 **Semester 2 - Tahun 2025**  
 🧑‍💻 **Mata Kuliah: Pemrograman Berorientasi Objek (PBO)**
 
 ---

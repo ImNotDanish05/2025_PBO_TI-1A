@@ -45,14 +45,6 @@ Aplikasi ini dibuat untuk:
 
 ---
 
-## 🎥 Simulasi Penghapusan Komentar Judol
-
-Video berikut adalah demonstrasi cara kerja program dalam mendeteksi dan menghapus komentar mencurigakan (terutama komentar judol/fancy text) menggunakan API YouTube:
-
-[![Simulasi Penghapusan Komentar Judol](https://placehold.co/640x360?text=Simulasi+Penghapusan+Komentar+Judol&font=source-sans-pro)](https://www.youtube.com/watch?v=FiaB5PBx7aY)
-
----
-
 ## 🛠️ Status
 
 > Saat ini aplikasi dalam tahap pengujian pribadi. Semua fungsi utama telah berjalan dan akan ditingkatkan sesuai kebutuhan lomba dan tugas besar.
