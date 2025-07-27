@@ -5,7 +5,7 @@
 
 ### 🎯 Deskripsi:
 
-Program ini digunakan untuk **mengambil data komentar & overview dari sebuah tempat di Google Maps**, lalu menyimpannya ke file `.txt`. Cocok banget untuk tugas dosen, analisa bisnis, atau buat stalk mantan lokasi nongkrong (ups 😝).
+Program ini digunakan untuk **mengambil data komentar & overview dari sebuah tempat di Google Maps**, lalu menyimpannya ke file `.txt`.
 
 ---
 
